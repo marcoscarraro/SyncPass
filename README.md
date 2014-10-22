@@ -23,8 +23,10 @@ Para resolver +- na linha 27 deve-se alterar de
 para
 **$(CC) -shared $(LINKOBJ) -o $(BIN) $(LIBS) -Wl,--output-def,$(DEF),--out-implib,$(STATIC),--add-stdcall-alias**
 
+```
 Testado:
 2012 R2 x64 - 
 2008 R2 x64 - OK
 2003 x32 -  
 2003 x64 - 
+```
