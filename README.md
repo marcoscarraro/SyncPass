@@ -19,9 +19,9 @@ Atenção:
 Este projeto foi compilado utilizando o Dev-C++ 5.7 x64, porém no momento que for compilar, ele retora o erro descrito no link dos desenvolvedores http://sourceforge.net/p/orwelldevcpp/tickets/136/?limit=25 
 
 Para resolver +- na linha 27 deve-se alterar de
-**$(CC) -shared $(LINKOBJ) -o $(BIN) $(LIBS) -Wl,--output-def,$(DEFFILE),--out-implib,$(STATICLIB),--add-stdcall-alias**   
+```$(CC) -shared $(LINKOBJ) -o $(BIN) $(LIBS) -Wl,--output-def,$(DEFFILE),--out-implib,$(STATICLIB),--add-stdcall-alias``` 
 para
-**$(CC) -shared $(LINKOBJ) -o $(BIN) $(LIBS) -Wl,--output-def,$(DEF),--out-implib,$(STATIC),--add-stdcall-alias**
+```$(CC) -shared $(LINKOBJ) -o $(BIN) $(LIBS) -Wl,--output-def,$(DEF),--out-implib,$(STATIC),--add-stdcall-alias```
 
 ```
 Testado:
