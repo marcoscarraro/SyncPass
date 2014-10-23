@@ -27,6 +27,6 @@ para
 Testado:
 2012 R2 x64 - ok
 2008 R2 x64 - OK
-2003 x32 -  
+2003 x32 - ok (precisa ser compilado em 32bit)
 2003 x64 - 
 ```
